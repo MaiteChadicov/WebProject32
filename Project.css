@@ -1,0 +1,59 @@
+body{ 
+		background-color: #F2D5E5
+		background-repeat: repeat;
+}
+
+h1{ color: #A61C35;
+	font-family: Sancreek, cursive , "Verdana Neue";
+
+}
+
+
+table,td { 
+			width: 70%;
+			height:1px;
+}
+
+ol {	color: #723147 ;
+		font-family: "Open Sans", Arial, "Verdana Neue";
+
+}
+
+a { display: block;
+	padding: 8px;
+	color: #D9486E;
+ 	text-decoration:none; 
+    width: 100px;
+    text-align: center;
+    background-color: #F2D5E5;
+	font-family: 'Happy Monkey', cursive;
+ }
+
+a:hover {
+
+		border-bottom-width:1px;
+		border-top-color:#A61C35;
+		border-bottom-style: dotted;
+		background-color: #F2E4E9;
+		color:#D984A3;
+
+}
+
+.active {
+	background-color: #D9486E;
+
+}
+
+ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+
+}
+
+li {
+	float: left;
+}
+
