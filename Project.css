@@ -1,17 +1,24 @@
 body{ 
-		background-color: #F2D5E5
-		background-repeat: repeat;
+        background-image: url(fondito.png);
+
+
 }
 
-h1{ color: #A61C35;
-	font-family: Sancreek, cursive , "Verdana Neue";
+p{ color:#E05555;
+    font-family: Sancreek, cursive , "Verdana Neue";
+    block-size: 30px;
+    font-size: 50px;
+    align-content: center;    
 
 }
 
 
 table,td { 
 			width: 70%;
-			height:1px;
+            height:8px;
+            block-size: 30px;
+            background-color: #fff5f0;
+            align-items: center;
 }
 
 ol {	color: #723147 ;
@@ -19,28 +26,32 @@ ol {	color: #723147 ;
 
 }
 
+
 a { display: block;
 	padding: 8px;
 	color: #D9486E;
  	text-decoration:none; 
     width: 100px;
     text-align: center;
-    background-color: #F2D5E5;
-	font-family: 'Happy Monkey', cursive;
+    background-color: #FCFFF5;
+    font-family: 'Happy Monkey', cursive;
+
  }
 
 a:hover {
 
 		border-bottom-width:1px;
-		border-top-color:#A61C35;
+		border-top-color: #E8837C;
 		border-bottom-style: dotted;
-		background-color: #F2E4E9;
-		color:#D984A3;
+		background-color: #ffbdc0;
+        color: #ffffff;
+        
 
 }
 
 .active {
-	background-color: #D9486E;
+    background-color:#E8837C;
+    color: #FCFFF5; 
 
 }
 
@@ -57,3 +68,65 @@ li {
 	float: left;
 }
 
+h4 {
+	font-family: font-family: 'Pangolin', cursive;
+}
+
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #b33760;
+    border-bottom-style: double;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    color: #EC5771;
+}
+
+
+.slider { 
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.slider ul { 
+        padding: 0;
+        display: flex;
+        width: 400%;
+        animation: cambio 20s infinite alternate;
+        animation-timing-function: ease-in;
+
+}
+
+.slider li { 
+        list-style: none;
+        width: 100%;
+
+}
+
+.slider img {
+        width: 100%;
+
+}
+
+@keyframes cambio {
+        
+        0%{margin-left: 0;}
+        20%{margin-left: 0;}
+
+        25%{margin-left: -100%;}
+        45%{margin-left: -100%;}
+
+        50%{margin-left: -200%;}
+        70%{margin-left: -200%;}
+
+        75%{margin-left: -300%;}
+        100%{margin-left: -300%;}
+
+
+
+
+
+}
