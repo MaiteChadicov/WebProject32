@@ -74,8 +74,7 @@ h4 {
 
 h2 {
     font-family: 'Alegreya Sans SC', sans-serif;
-    color: #b33760;
-    border-bottom-style: double;
+    color: #E05555;
 }
 
 h1 {
@@ -126,7 +125,16 @@ h1 {
         100%{margin-left: -300%;}
 
 
+}
 
 
+.zoom:hover {
+
+    transform: scale(1.2);
+}
+
+
+.zoom{
+    transition: transform .5s;
 
 }
